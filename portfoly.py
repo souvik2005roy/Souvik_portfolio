@@ -4,7 +4,7 @@ import json
 from streamlit_lottie import st_lottie
 
 # Load local image and animation
-img = Image.open('C:/Users/souvi/Downloads/Resume Photo.jpg')
+img = Image.open('./Resume Photo.jpg')
 
 def load_lottie_local(path: str):
     with open(path, "r", encoding="utf-8") as f:
